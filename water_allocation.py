@@ -99,7 +99,7 @@ def runModel(user_param,source_param,budget,unfeasibles = []):
         print('\nDeficit of water (cubic meter/year):')
         for u in users:
             print(f'User {u}:',DWD[u].solution_value())
-        print('\nExceedance in extraction: (cubic meter/year)')
+        print('\nExceedance in extraction (cubic meter/year):')
         for s in sources:
             print(f'Source {s}:',EWA[s].solution_value())
         print('\nOptimal allocation (cubic meter/year):')
@@ -118,7 +118,7 @@ if __name__ == '__main__':
         'HH':   {'demand': 50,  'ppm':0.5, 'weight': 2},
         'AGRO': {'demand': 300, 'ppm':1.0, 'weight': 1},
         'IND':  {'demand': 100, 'ppm':0.7, 'weight': 1},
-        'PG':   {'demand': 200, 'ppm':1.0, 'weight': 1},
+        'PG':   {'demand': 200, 'ppm':1.0, 'weight': 1}
         }
     
     # Units: supply [cubic meter/year], ppm [kg/cubic meter], weight [cost/cubic meter]
@@ -127,7 +127,7 @@ if __name__ == '__main__':
         'GW': {'supply': 75,  'ppm': 0.2, 'weight': 1, 'extractionCost': 5},
         'SW': {'supply': 75,  'ppm': 0.1, 'weight': 1, 'extractionCost': 1},
         'DW': {'supply': 200, 'ppm': 0.7, 'weight': 1, 'extractionCost': 2},
-        'WW': {'supply': 300, 'ppm': 1.0, 'weight': 1, 'extractionCost': 3},
+        'WW': {'supply': 300, 'ppm': 1.0, 'weight': 1, 'extractionCost': 3}
         }
     
     budget = 1000.0
