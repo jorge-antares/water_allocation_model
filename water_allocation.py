@@ -121,7 +121,7 @@ if __name__ == '__main__':
         'PG':   {'demand': 200, 'ppm':1.0, 'weight': 1}
         }
     
-    # Units: supply [cubic meter/year], ppm [kg/cubic meter], weight [cost/cubic meter]
+    # Units: supply [cubic meter/year], ppm [g/cubic meter], weight [cost/cubic meter]
     # extractionCost [$/cubic meter]
     source_param = {
         'GW': {'supply': 75,  'ppm': 0.2, 'weight': 1, 'extractionCost': 5},
