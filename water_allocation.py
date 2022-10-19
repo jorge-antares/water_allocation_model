@@ -61,7 +61,6 @@ def runModel(user_param,source_param,budget,unfeasibles = []):
         solver.Sum([ user_param[u]['weight']    * DWD[u] for u in users   ]) + \
         solver.Sum([ source_param[s]['weight']  * EWA[s] for s in sources ])
         )
-    
     # Goal 1
     for u in users:
         solver.Add(
@@ -72,14 +71,12 @@ def runModel(user_param,source_param,budget,unfeasibles = []):
         solver.Add(
             solver.Sum([ Q[s,u] for u in users   ]) <= source_param[s]['supply'] - EWA[s]
             )
-    
     # Water quality concentration
     for u in users:
         solver.Add(
             solver.Sum([ source_param[s]['ppm'] * Q[s,u] for s in sources ]) <= \
             user_param[u]['ppm'] * solver.Sum([ Q[s,u] for s in sources ])
             )
-    
     # Budget constraint
     solver.Add(
         solver.Sum([ source_param[s]['extractionCost'] * \
@@ -113,7 +110,7 @@ def runModel(user_param,source_param,budget,unfeasibles = []):
 
 if __name__ == '__main__':
     
-    # Units: demand [cubic meter/year], ppm [kg/cubic meter], weight [cost/cubic meter]
+    # Units: demand [cubic meter/year], ppm [g/cubic meter], weight [cost/cubic meter]
     user_param = {
         'HH':   {'demand': 50,  'ppm':0.5, 'weight': 2},
         'AGRO': {'demand': 300, 'ppm':1.0, 'weight': 1},
