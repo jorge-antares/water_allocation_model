@@ -16,7 +16,7 @@ $$\sum_{u} Q_{s,u} \leq WA_{s} - EWA_{s}\quad\quad \forall s$$
 
 $$\sum_{s} WQ_{s,q} Q_{s,u} \leq AQ_{u,q} \Big( \sum_{s} Q_{s,u} \Big)\quad\quad \forall u,q$$
 
-$$\sum_{s} \Big[ \text{cost}_{s} \Big( \sum_{u} Q_{s,u} \Big) \Big] \leq \text{budget}$$
+$$\sum_{s} \Bigg( cost_{s} \Big( \sum_{u} Q_{s,u} \Big) \Bigg) \leq \text{budget}$$
 
 # Publication #
 Garcia, J. A., & Alamanos, A. (2023). A Multi-Objective Optimization Framework for Water Resources Allocation Considering Stakeholder Input. Environmental Sciences Proceedings, 25(1), 32. https://doi.org/10.3390/ECWS-7-14227
