@@ -4,7 +4,7 @@ This model allocates water resources to different activities having two goals:
 * reduce the deficit in water supply to users and
 * avoid overextraction from different water sources,
 
-along with water quality and budget contrants.
+along with water quality and budget contrants. For an explanation of the model, please consult the reference below.
 
 # Model #
 
@@ -15,6 +15,8 @@ $$\sum_{s} Q_{s,u} \geq WD_{u} - DWD_{u}\quad\quad \forall u$$
 $$\sum_{u} Q_{s,u} \leq WA_{s} - EWA_{s}\quad\quad \forall s$$
 
 $$\sum_{s} WQ_{s,q} Q_{s,u} \leq AQ_{u,q} \Big( \sum_{s} Q_{s,u} \Big)\quad\quad \forall u,q$$
+
+$$\sum_{s} \Big[ \text{cost}_{s} \Big( \sum_{u} Q_{s,u} \Big) \Big] \leq \text{budget}$$
 
 # Publication #
 Garcia, J. A., & Alamanos, A. (2023). A Multi-Objective Optimization Framework for Water Resources Allocation Considering Stakeholder Input. Environmental Sciences Proceedings, 25(1), 32. https://doi.org/10.3390/ECWS-7-14227
