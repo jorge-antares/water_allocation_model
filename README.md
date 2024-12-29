@@ -16,7 +16,7 @@ $$\sum_{u} Q_{s,u} \leq WA_{s} - EWA_{s}\quad\quad \forall s$$
 
 $$\sum_{s} WQ_{s,q} Q_{s,u} \leq AQ_{u,q} \Big( \sum_{s} Q_{s,u} \Big)\quad\quad \forall u,q$$
 
-$$\sum_{s} \Bigg( \text{cost}_{s} \Big( \sum_{u} Q_{s,u} \Big) \Bigg) \leq \text{budget}$$
+$$\sum_{s} \Bigg( cost_{s} \Big( \sum_{u} Q_{s,u} \Big) \Bigg) \leq \text{budget}$$
 
 $$ Q_{s,u} \leq \delta_{s,u} M\quad\quad \forall s,u$$
 
