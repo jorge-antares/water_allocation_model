@@ -4,7 +4,7 @@ This model allocates water resources to different activities having two goals:
 * reduce the deficit in water supply to users and
 * avoid overextraction from different water sources,
 
-along with water quality and budget contrants. For an explanation of the model, please consult the reference below.
+along with water quality and budget contrants. For an explanation of the model, please consult the publication below.
 
 # Model #
 
