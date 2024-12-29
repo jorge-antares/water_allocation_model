@@ -6,6 +6,8 @@ This model allocates water resources to different activities having two goals:
 
 along with water quality and budget contrants. For an explanation of the model, please consult the publication below.
 
+The model considers various water supply sources (groundwater, surface water, desalinated water, treated wastewater) and water uses (domestic, agricultural, industrial). Water demand, availability, quality parameters, costs, and stakeholder input for the prioritization of the different goals set are synthesized through Goal Programming.
+
 # Model #
 
 $$\min z = \sum_{u} \alpha_{u} DWD_{u} + \sum_{s} \beta_{s} DWD_{s}$$
