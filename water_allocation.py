@@ -24,7 +24,10 @@ WW      treated wastewater
 
 
 For model description see:
-    xxxxx
+    Garcia, J. A., & Alamanos, A. (2023). A Multi-Objective Optimization
+    Framework for Water Resources Allocation Considering Stakeholder Input.
+    Environmental Sciences Proceedings, 25(1), 32.
+    https://doi.org/10.3390/ECWS-7-14227
 
 """
 
