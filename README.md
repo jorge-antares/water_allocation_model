@@ -6,9 +6,10 @@ This model allocates water resources to different activities having two goals:
 
 along with water quality and budget contrants.
 
-$x^2+x$
+# MODEL #
 
-This is an inline equation: $$V_{sphere} = \frac{4}{3}\pi r^3$$,<br>
-followed by a display style equation:
+$$\min z = \sum_{u} \alpha_{u} DWD_{u}$$
 
-$$V_{sphere} = \frac{4}{3}\pi r^3$$
+
+# PUBLICATION #
+Garcia, J. A., & Alamanos, A. (2023). A Multi-Objective Optimization Framework for Water Resources Allocation Considering Stakeholder Input. Environmental Sciences Proceedings, 25(1), 32. https://doi.org/10.3390/ECWS-7-14227
