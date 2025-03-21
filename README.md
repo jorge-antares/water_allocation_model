@@ -10,7 +10,7 @@ The model considers various water supply sources (groundwater, surface water, de
 
 # Model #
 
-$$\min z = \sum_{u} \alpha_{u} DWD_{u} + \sum_{s} \beta_{s} DWD_{s}$$
+$$\min z = \sum_{u} \alpha_{u} DWD_{u} + \sum_{s} \beta_{s} EWA_{s}$$
 
 $$\sum_{s} Q_{s,u} \geq WD_{u} - DWD_{u}\quad\quad \forall u$$
 
